@@ -19,13 +19,6 @@ search_box.send_keys("Selenium")
 search_box.send_keys(Keys.RETURN)
 time.sleep(3)
 
-driver.get("https://www.bing.com/")
-time.sleep(2)
-search_box = driver.find_element(By.NAME, "q")
-search_box.send_keys("Selenium")
-search_box.send_keys(Keys.RETURN)
-time.sleep(3)
-
 driver.get("https://www.wikipedia.org/")
 time.sleep(2)
 search_box = driver.find_element(By.NAME, "search")
